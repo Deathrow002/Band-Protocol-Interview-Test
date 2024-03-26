@@ -3,11 +3,13 @@
 1. Boss's Baby Revenge
 
     Functionality:
+
         The program takes a user-provided string as input, representing a sequence of events:
             - "S" signifies a water gun shot fired by the kids at Boss Baby's house.
             - "R" represents Boss Baby retaliating with a water gun shot.
 
     Output:
+
         Based on the analysis, the program provides one of three outputs:
         - "Good Boy" - Boss Baby followed the "fair revenge" protocol.
         - "Bad Boy" - Boss Baby initiated shooting or retaliated excessively.
@@ -17,16 +19,18 @@
             Input: SSRRR
             Output: Bad Boy  # Boss Baby retaliated more than he was shot at.
 
-########################################################################################################################################
+#######################################################################################
 
 2.  Superman's Chicken Rescue
 
     Functionality:
+    
         The program prompts you for two inputs:
             - Superman Roof: The height of Superman's roof (integer).
             - Chicken Positions: Comma-separated integers representing the positions of each chicken on the building.
 
     Output:
+
         The program performs the following steps:
             - Conversion: It attempts to convert the comma-separated chicken positions into a list of integers. If the input contains non-numeric characters, it displays an error message and returns 0.
             - Calculation: It iterates through each chicken's position and calculates Superman's maximum reach for that location (considering roof height).
@@ -38,11 +42,12 @@
             Enter Superman Chickens Position 'comma-separated integers': 2, 4, 8, 10
             Maximum Chickens Rescued: 3
 
-########################################################################################################################################
+#######################################################################################
         
 3. Transaction Broadcasting and Monitoring Client
 
     Functionality:
+
         User Input: The program prompts you to enter two pieces of information:
             - Symbol: The symbol of the currency.
             - Price: The current price of the currency.
@@ -55,6 +60,7 @@
             - For non-existent transactions, the script will display an error message.
 
     Output:
+
         Enter the currency symbol and price when prompted:
             Input Sympol: ETL
             Input Price: 70000
@@ -65,4 +71,4 @@
             Transaction Status: PENDING
             Transaction Status: CONFIRMED
 
-########################################################################################################################################
+######################################################################################
