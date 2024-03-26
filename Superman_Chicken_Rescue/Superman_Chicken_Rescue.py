@@ -8,10 +8,11 @@ def rescue_chicken(roof_height, chicken_positions):
       return 0
 
   num_rescued = 0
-  for i in range(len(chicken_positions)):
+  size = len(chicken_positions)
+  for i in range(size):
     reach = chicken_positions[i] + roof_height - 1
     count = 1
-    for j in range(i + 1, len(chicken_positions)):
+    for j in range(size):
       if reach >= chicken_positions[j]:
         count += 1
       else:
@@ -21,7 +22,7 @@ def rescue_chicken(roof_height, chicken_positions):
   return num_rescued
 
 if __name__ == "__main__":
-  roof_height = int(input("Input Superman Roof: "))
+  roof_height = int(input("Enter Superman Roof: "))
   chicken_positions_str = input("Enter Superman Chickens Position 'comma-separated integers': ")
   chicken_positions = chicken_positions_str.split(",")
 

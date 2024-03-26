@@ -25,5 +25,5 @@ def Boss_Baby_Revenge(string):
     print("Output:", "Good Boy")
 
 if __name__ == "__main__":
-  String_Input = input("Input Sequence Event: ")
+  String_Input = input("Enter Sequence Event: ")
   Boss_Baby_Revenge(String_Input)

@@ -7,8 +7,8 @@ url_check = "https://mock-node-wgqbnxruha-as.a.run.app/check/"
 
 current_time_seconds = int(time.time())
 
-symbol_input = input("Input Sympol: ")
-price_input = int(input("Input Price: "))
+symbol_input = input("Enter Sympol: ")
+price_input = int(input("Enter Price: "))
 
 data = {
     "symbol": symbol_input,
